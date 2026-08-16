@@ -38,7 +38,7 @@ class Report:
     @report_decorator
     def display_report(self):
         print("Company :", Report.company_name)
-        print(self)
+        print(self)      
         Report.line()
         print("Report Contents:")
         for i, item in enumerate(self.contents, start=1):
